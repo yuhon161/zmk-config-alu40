@@ -33,10 +33,10 @@
 
         lower {
             bindings = <
-&kp ESC    &kp N7    &kp N8    &kp N9         &kp N0   &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)      &kp LS(N0)      &kp DEL
-&kp CAPS   &kp N4    &kp N5    &kp N6         &kp F4   &kp F5      &kp F6      &kp UNDER   &kp PLUS    &kp LBRC        &kp RBRC        &kp PIPE
-&kp LSHFT  &kp N1    &kp N2    &kp N3         &kp F10  &kp F11     &kp F12     &trans      &trans      &trans          &mmv MOVE_UP    &trans
-&kp LCTRL  &kp LGUI  &kp LALT  &kp LA(GRAVE)  &mo 1    &mkp MB1    &mkp MB2    &mo 2       &kp C_PREV  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
+&kp ESC    &kp N7    &kp N8    &kp N9         &kp N0     &kp EQUAL  &trans     &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_TOG
+&kp CAPS   &kp N4    &kp N5    &kp N6         &kp COMMA  &kp MINUS  &kp SLASH  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI
+&kp LSHFT  &kp N1    &kp N2    &kp N3         &kp DOT    &kp PLUS   &kp ASTRK  &trans           &trans           &trans           &mmv MOVE_UP     &rgb_ug RGB_SPD
+&kp LCTRL  &kp LGUI  &kp LALT  &kp LA(GRAVE)  &mo 1      &mkp MB1   &mkp MB2   &mo 2            &kp RALT         &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
