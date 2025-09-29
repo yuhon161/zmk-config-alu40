@@ -43,10 +43,10 @@
 
         raise {
             bindings = <
-&kp ESC    &kp F9    &kp F10   &kp F11        &kp F12  &trans     &trans     &trans  &trans    &kp MINUS      &kp EQUAL  &kp DEL
-&kp TAB    &kp F5    &kp F6    &kp F7         &kp F8   &trans     &trans     &trans  &trans    &kp LBKT       &kp RBKT   &kp BSLH
-&kp LSHFT  &kp F1    &kp F2    &kp F3         &kp F4   &trans     &trans     &trans  &trans    &kp LG(LS(S))  &kp SLASH  &kp RSHFT
-&kp LCTRL  &kp LGUI  &kp LALT  &kp LA(GRAVE)  &mo 1    &kp SPACE  &kp ENTER  &mo 2   &kp RALT  &trans         &trans     &trans
+&kp ESC    &kp F9    &kp F10   &kp F11        &kp F12  &trans     &trans     &trans  &trans    &kp MINUS      &kp EQUAL   &kp DEL
+&kp TAB    &kp F5    &kp F6    &kp F7         &kp F8   &trans     &trans     &trans  &trans    &kp LBKT       &kp RBKT    &kp BSLH
+&kp LSHFT  &kp F1    &kp F2    &kp F3         &kp F4   &trans     &trans     &trans  &trans    &kp LG(LS(S))  &kp SLASH   &kp RSHFT
+&kp LCTRL  &kp LGUI  &kp LALT  &kp LA(GRAVE)  &mo 1    &kp SPACE  &kp ENTER  &mo 2   &kp RALT  &trans         &bt BT_PRV  &bt BT_NXT
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRI_DEC C_BRI_INC>;
