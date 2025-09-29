@@ -34,8 +34,8 @@
             bindings = <
 &kp ESC    &kp N7    &kp N8    &kp N9         &kp N0     &kp EQUAL  &trans     &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_TOG
 &kp CAPS   &kp N4    &kp N5    &kp N6         &kp COMMA  &kp MINUS  &kp SLASH  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI
-&kp LSHFT  &kp N1    &kp N2    &kp N3         &kp DOT    &kp PLUS   &kp ASTRK  &trans           &trans           &trans           &kp UP           &rgb_ug RGB_SPD
-&kp LCTRL  &kp LGUI  &kp LALT  &kp LA(GRAVE)  &mo 1      &kp SPACE  &kp ENTER  &mo 2            &kp RALT         &kp LEFT         &kp DOWN         &kp RIGHT
+&kp LSHFT  &kp N1    &kp N2    &kp N3         &kp DOT    &kp PLUS   &kp ASTRK  &trans           &trans           &trans           &kp PAGE_UP      &rgb_ug RGB_SPD
+&kp LCTRL  &kp LGUI  &kp LALT  &kp LA(GRAVE)  &mo 1      &kp SPACE  &kp ENTER  &mo 2            &kp RALT         &trans           &kp PAGE_DOWN    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
